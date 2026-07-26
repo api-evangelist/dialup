@@ -1,7 +1,23 @@
 aid: dialup
 name: Dialup
-description: Dialup is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Dialup is a voice-chat app that revives the magic of talking on the phone by pairing people
+  for one-on-one calls based on shared interests. It automates recurring, scheduled calls so users connect
+  serendipitously with friends, communities, or complete strangers around the world without any manual
+  coordination. Callers opt in with custom caller IDs rather than random numbers, and the free service
+  is available on iOS and Android. Dialup is a Bloomberg Beta portfolio company; it operates as a consumer
+  social/communication application and does not currently publish a public developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/5da6bf2f195c19564c5ad396/t/5db61946820b8d290245f992/1572215113230/dialup_graphics%28blue%29.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/dialup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Voice
+- Social
+- Communication
+- Consumer App
+- Telephony
+- Community
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dialup-domain-security.yml
 - type: Website
   url: https://dialup.com/
+- type: PrivacyPolicy
+  url: https://dialup.com/privacy
+- type: TermsOfService
+  url: https://dialup.com/tos
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
